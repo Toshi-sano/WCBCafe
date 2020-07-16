@@ -50,25 +50,6 @@ img {
   background-color: #0090aa;
 }
 
-/* モバイル版 */
-@media (max-width: 600px) {
-  .main-nav {
-    font-size: 1rem;
-    margin-top: 10px;
-  }
-  .main-nav li {
-    margin: 0 20px;
-  }
-
-  .home-content {
-    margin-top: 20%;
-  }
-
-  .page-title {
-    font-size: 2.5rem;
-  }
-}
-
 /* ヘッダー */
 
 .page-header {
@@ -221,4 +202,23 @@ aside p {
 }
 .sub-menu a:hover {
   color: #0bd;
+}
+
+/* モバイル版 */
+@media (max-width: 600px) {
+  .main-nav {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  .main-nav li {
+    margin: 0 20px;
+  }
+
+  .home-content {
+    margin-top: 20%;
+  }
+
+  .page-title {
+    font-size: 2.5rem;
+  }
 }
